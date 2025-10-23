@@ -1,14 +1,16 @@
-# 🚀 Warp No Limits [RUST] - Надежный Автоматический Байпасс
+```markdown
+# 🚀 Warp No Limits [RUST] - Reliable Automatic Bypass
 
 <div align="center">
 
 ```
-██╗    ██╗█████╗ ██████╗ ██████╗ 
+
+██╗    ██╗█████╗ ██████╗ ██████╗
 ██║    ██║██╔══██╗██╔══██╗██╔══██╗
 ██░ █╗ ██║███████║██████╔╝██████╔╝
-██░███╗██║██╔══██║██╔══██╗██╔═══╝ 
-╚███╔███╔╝██║  ██║██║  ██║██║     
- ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     
+██░███╗██║██╔══██║██╔══██╗██╔═══╝
+╚███╔███╔╝██║  ██║██║  ██║██║
+╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 
 ███╗   ██╗ ██████╗     ██╗     ██╗███╗   ███╗██╗████████╗███████╗
 ████╗  ██║██╔═══██╗    ██║     ██║████╗ ████║██║╚══██╔══╝██╔════╝
@@ -16,9 +18,10 @@
 ██║╚██╗██║██║   ██║    ██║     ██║██║╚██╔╝██║██║   ██║   ╚════██║
 ██║ ╚████║╚██████╔╝    ███████╗██║██║ ╚═╝ ██║██║   ██║   ███████║
 ╚═╝  ╚═══╝ ╚═════╝     ╚══════╝╚═╝╚═╝     ╚═╝╚═╝   ╚═╝   ╚══════╝
-```
 
-**⚡ Переписан на Rust для максимальной производительности!**
+````
+
+**⚡ Rewritten in Rust for maximum performance!**
 
 Created by **Moti** 💫
 
@@ -30,60 +33,62 @@ Created by **Moti** 💫
 
 ---
 
-## 📖 Описание
+## 📖 Description
 
-**Warp No Limits [RUST]** — это мощный инструмент для автоматического байпасса Warp Terminal, переписанный на **Rust** для обеспечения максимальной **надежности**, **производительности** и **безопасности**.
+**Warp No Limits [RUST]** is a powerful tool for automatic bypass of the Warp Terminal, rewritten in **Rust** to provide maximum **reliability**, **performance**, and **safety**.
 
-> 🔥 **Почему Rust?**  
-> - ⚡ В **10-100 раз быстрее** оригинальной Python версии
-> - 🛡️ Безопасность памяти гарантирована на уровне компилятора
-> - 📦 Один бинарный файл — никаких зависимостей Python!
-> - 🚀 Нативная производительность на всех платформах
-
----
-
-## ✨ Особенности
-
-| Функция | Описание |
-|---------|----------|
-| 🔄 **Автоматический режим** | Полностью автоматизированный байпасс без запросов подтверждения |
-| ⚡ **Enhanced Beta Bypass** | Максимально надежная глубокая очистка *(рекомендуется)* |
-| 🌍 **Кросс-платформенность** | Windows, macOS, Linux — везде работает одинаково хорошо |
-| 🛡️ **Безопасность** | Graceful error handling + безопасное управление памятью |
-| 💨 **Быстрота** | Выполняется за **секунды** благодаря Rust |
-| 🎯 **Несколько режимов** | Сброс ID, полное удаление, бета-режим, тихий режим |
-| 📦 **Zero Dependencies** | Один исполняемый файл — никаких runtime зависимостей! |
+> 🔥 **Why Rust?**  
+> - ⚡ **10–100× faster** than the original Python version  
+> - 🛡️ Memory safety enforced at compile time  
+> - 📦 Single binary — no Python dependencies!  
+> - 🚀 Native performance on all platforms
 
 ---
 
-## 🎯 Режимы работы
+## ✨ Features
 
-### 1. ⚡ Enhanced Beta Bypass (РЕКОМЕНДУЕТСЯ)
+| Feature | Description |
+|---------|-------------|
+| 🔄 **Automatic mode** | Fully automated bypass with no confirmation prompts |
+| ⚡ **Enhanced Beta Bypass** | Most reliable deep-clean mode *(recommended)* |
+| 🌍 **Cross-platform** | Windows, macOS, Linux — works equally well everywhere |
+| 🛡️ **Safety** | Graceful error handling + safe memory management |
+| 💨 **Speed** | Runs in **seconds** thanks to Rust |
+| 🎯 **Multiple modes** | ID reset, full removal, beta mode, silent mode |
+| 📦 **Zero Dependencies** | Single executable — no runtime dependencies! |
 
-Самый надежный режим с глубокой очисткой:
+---
+
+## 🎯 Operation Modes
+
+### 1. ⚡ Enhanced Beta Bypass (RECOMMENDED)
+
+The most reliable mode with deep cleaning:
 
 ```bash
-# По умолчанию использует enhanced beta режим
+# Uses enhanced beta mode by default
 warp-no-limit
 
-# Или явно указать
+# Or specify explicitly
 warp-no-limit --enhanced-beta
-```
+````
 
-**Что делает:**
-- ✅ **3x попытки** остановки процессов Warp
-- ✅ Стандартная очистка (данные, кэш, логи, настройки)
-- ✅ **[BETA] Глубокая очистка:**
-  - **macOS:** Cookies, Containers, Group Containers
-  - **Windows:** LocalLow, Prefetch (кэш запуска)
-  - **Linux:** Libraries, Systemd services
-- ✅ Проверка результатов
+**What it does:**
+
+* ✅ **3x attempts** to stop Warp processes
+* ✅ Standard cleanup (data, cache, logs, settings)
+* ✅ **[BETA] Deep clean:**
+
+  * **macOS:** Cookies, Containers, Group Containers
+  * **Windows:** LocalLow, Prefetch (startup cache)
+  * **Linux:** Libraries, Systemd services
+* ✅ Verification of results
 
 ---
 
-### 2. 🤖 Автоматический режим
+### 2. 🤖 Automatic mode
 
-Быстрый сброс идентификатора:
+Quick ID reset:
 
 ```bash
 warp-no-limit --auto
@@ -91,9 +96,9 @@ warp-no-limit --auto
 
 ---
 
-### 3. 🔄 Ручной сброс ID
+### 3. 🔄 Manual ID reset
 
-Просто сбросить идентификатор:
+Just reset the identifier:
 
 ```bash
 warp-no-limit --reset
@@ -101,9 +106,9 @@ warp-no-limit --reset
 
 ---
 
-### 4. 🗑️ Полное удаление
+### 4. 🗑️ Full removal
 
-Удалить Warp полностью:
+Remove Warp completely:
 
 ```bash
 warp-no-limit --remove
@@ -111,9 +116,9 @@ warp-no-limit --remove
 
 ---
 
-### 5. 🤫 Тихий режим
+### 5. 🤫 Silent mode
 
-Минимум вывода (для скриптов):
+Minimal output (for scripts):
 
 ```bash
 warp-no-limit --silent
@@ -121,38 +126,38 @@ warp-no-limit --silent
 
 ---
 
-## 📋 Требования
+## 📋 Requirements
 
-- **Rust 1.75+** (для сборки из исходников)
-- **Права администратора** (рекомендуется для полной очистки)
-- **ОС:** Windows 10+, macOS 10.15+, или Linux (любой дистрибутив)
+* **Rust 1.75+** (to build from source)
+* **Administrator rights** (recommended for full cleanup)
+* **OS:** Windows 10+, macOS 10.15+, or Linux (any distro)
 
 ---
 
-## 🚀 Установка
+## 🚀 Installation
 
-### Вариант 1: Скачать готовый бинарник (РЕКОМЕНДУЕТСЯ)
+### Option 1: Download prebuilt binary (RECOMMENDED)
 
 ```bash
-# Скачайте из Releases для вашей платформы
+# Download from Releases for your platform
 # Windows: warp-no-limit.exe
 # macOS/Linux: warp-no-limit
 ```
 
-### Вариант 2: Собрать из исходников
+### Option 2: Build from source
 
 ```bash
-# Клонировать репозиторий
+# Clone the repository
 git clone https://github.com/MotiDva123/warp-no-limit-rust
 cd warp-no-limit-rust
 
-# Собрать release версию
+# Build release version
 cargo build --release
 
-# Бинарник будет в target/release/
+# The binary will be in target/release/
 ```
 
-### Вариант 3: Установить через Cargo
+### Option 3: Install via Cargo
 
 ```bash
 cargo install --path .
@@ -160,18 +165,18 @@ cargo install --path .
 
 ---
 
-## 🎨 Примеры использования
+## 🎨 Usage examples
 
 ### Windows
 
 ```powershell
-# Enhanced beta bypass (по умолчанию)
+# Enhanced beta bypass (default)
 .\warp-no-limit.exe
 
-# С правами администратора (PowerShell от имени администратора)
+# With administrator privileges (PowerShell run as Administrator)
 .\warp-no-limit.exe --enhanced-beta
 
-# Тихий режим
+# Silent mode
 .\warp-no-limit.exe --silent
 ```
 
@@ -181,126 +186,131 @@ cargo install --path .
 # Enhanced beta bypass
 ./warp-no-limit
 
-# С sudo (для полного доступа)
+# With sudo (for full access)
 sudo ./warp-no-limit --enhanced-beta
 
-# Быстрый авто-режим
+# Quick auto mode
 ./warp-no-limit --auto
 ```
 
 ---
 
-## 🔬 Что такое Enhanced Beta Mode?
+## 🔬 What is Enhanced Beta Mode?
 
-Это **экспериментальный режим** с дополнительными возможностями:
+This is an **experimental mode** with additional capabilities:
 
 ### Windows:
-- ✅ Очистка `AppData/LocalLow`
-- ✅ Попытка очистки `Prefetch` (кэш запуска)
-- ✅ Расширенная очистка реестра
+
+* ✅ Clean `AppData/LocalLow`
+* ✅ Attempt to clear `Prefetch` (startup cache)
+* ✅ Extended registry cleanup
 
 ### macOS:
-- ✅ Очистка Cookies
-- ✅ Очистка Containers и Group Containers
-- ✅ Расширенная очистка Launch Services
+
+* ✅ Clear Cookies
+* ✅ Clear Containers and Group Containers
+* ✅ Extended Launch Services cleanup
 
 ### Linux:
-- ✅ Очистка `.local/lib`
-- ✅ Очистка Systemd user services
-- ✅ Расширенная очистка XDG директорий
+
+* ✅ Clear `.local/lib`
+* ✅ Clear Systemd user services
+* ✅ Extended cleanup of XDG directories
 
 ---
 
-## ⚠️ Важно
+## ⚠️ Important
 
-- ⚠️ **BETA** - экспериментальная функция, может быть нестабильной
-- 💾 **Backup** важных данных перед использованием
-- 🔐 Для максимальной эффективности запускайте с **правами администратора**
-- 🪟 На **Windows**: Запустите PowerShell/CMD от имени администратора
-- 🍎 На **macOS/Linux**: Используйте `sudo`
-
----
-
-## 🆚 Сравнение с Python версией
-
-| Критерий | Python версия | Rust версия |
-|----------|---------------|-------------|
-| **Скорость** | ~2-5 секунд | ~0.1-0.5 секунд ⚡ |
-| **Размер** | ~10 MB (с Python) | ~3-5 MB (один файл) 📦 |
-| **Зависимости** | Python 3.6+ | Никаких! ✨ |
-| **Безопасность памяти** | Нет | Да 🛡️ |
-| **Cross-compilation** | Сложно | Легко 🎯 |
+* ⚠️ **BETA** - experimental feature, may be unstable
+* 💾 **Backup** important data before use
+* 🔐 For maximum effectiveness run with **administrator privileges**
+* 🪟 On **Windows**: Run PowerShell/CMD as Administrator
+* 🍎 On **macOS/Linux**: Use `sudo`
 
 ---
 
-## 🛠️ Разработка
+## 🆚 Comparison with the Python version
 
-### Структура проекта
+|             Criterion |       Python version |             Rust version |
+| --------------------: | -------------------: | -----------------------: |
+|             **Speed** |         ~2–5 seconds |       ~0.1–0.5 seconds ⚡ |
+|              **Size** | ~10 MB (with Python) | ~3–5 MB (single file) 📦 |
+|      **Dependencies** |          Python 3.6+ |                  None! ✨ |
+|     **Memory safety** |                   No |                  Yes 🛡️ |
+| **Cross-compilation** |                 Hard |                  Easy 🎯 |
+
+---
+
+## 🛠️ Development
+
+### Project structure
 
 ```
 warp-no-limit-rust/
 ├── src/
-│   └── main.rs          # Весь код в одном файле
-├── Cargo.toml           # Зависимости и metadata
-├── README.md            # Этот файл
+│   └── main.rs          # All code in one file
+├── Cargo.toml           # Dependencies and metadata
+├── README.md            # This file
 └── .gitignore
 ```
 
-### Запуск в режиме разработки
+### Running in development
 
 ```bash
-# Запустить без сборки
+# Run without building
 cargo run
 
-# Запустить с аргументами
+# Run with arguments
 cargo run -- --enhanced-beta
 
-# Проверить код
+# Check the code
 cargo check
 
-# Запустить тесты
+# Run tests
 cargo test
 
-# Форматирование
+# Format
 cargo fmt
 
-# Линтер
+# Linter
 cargo clippy
 ```
 
 ---
 
-## 📜 Лицензия
+## 📜 License
 
-MIT License - создавайте, модифицируйте, используйте свободно!
-
----
-
-## 👨‍💻 Автор
-
-**Moti**  
-- 🔗 GitHub: [@MotiDva123](https://github.com/MotiDva123)
-- 📧 Вопросы? Открывайте Issues!
+MIT License — create, modify, and use freely!
 
 ---
 
-## 🌟 Если проект помог
+## 👨‍💻 Author
 
-Если этот инструмент вам помог, поставьте ⭐ на GitHub!
+**Moti**
+
+* 🔗 GitHub: [@MotiDva123](https://github.com/MotiDva123)
+* 📧 Questions? Open an Issue!
+
+---
+
+## 🌟 If this project helped
+
+If this tool helped you, please give it a ⭐ on GitHub!
 
 ---
 
 ## ⚖️ Disclaimer
 
-Этот инструмент создан **исключительно в образовательных целях**.  
-Используйте на свой страх и риск. Автор не несет ответственности за любые последствия использования.
+This tool is provided **for educational purposes only**.
+Use at your own risk. The author is not responsible for any consequences of use.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ and 🦀 Rust**
+**Made with ❤️ and 🦀 Rust by moti**
 
-*Оригинальная Python версия: [warp-no-limit](https://github.com/MotiDva123/warp-no-limit)*
+*Original Python version: [warp-no-limit](https://github.com/MotiDva123/warp-no-limit)*
 
 </div>
+```
