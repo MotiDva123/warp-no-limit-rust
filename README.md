@@ -120,21 +120,26 @@ cargo fmt
 cargo clippy
 
 
-📜 License
+## 📜 License
 
 MIT License — create, modify, and use freely!
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Moti
 
+
 🔗 GitHub: @MotiDva123
+
 
 📧 Questions? Open an Issue!
 
+
 🌟 If this project helped
 
+
 If this tool helped you, please give it a ⭐ on GitHub!
+
 
 ⚖️ Disclaimer
 
@@ -148,5 +153,6 @@ Made with ❤️ and 🦀 Rust by moti
 Original Python version: warp-no-limit
 
 </div>
+
 
 
