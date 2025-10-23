@@ -28,51 +28,6 @@ Created by Moti 💫
 
 Warp No Limits [RUST] is a powerful tool for automatic bypass of the Warp Terminal, rewritten in Rust to provide maximum reliability, performance, and safety.
 
-🔥 Why Rust?
-
-⚡ 10–100× faster than the original Python version
-
-🛡️ Memory safety enforced at compile time
-
-📦 Single binary — no Python dependencies!
-
-🚀 Native performance on all platforms
-
-✨ Features
-
-Feature
-
-Description
-
-🔄 Automatic mode
-
-Fully automated bypass with no confirmation prompts
-
-⚡ Enhanced Beta Bypass
-
-Most reliable deep-clean mode (recommended)
-
-🌍 Cross-platform
-
-Windows, macOS, Linux — works equally well everywhere
-
-🛡️ Safety
-
-Graceful error handling + safe memory management
-
-💨 Speed
-
-Runs in seconds thanks to Rust
-
-🎯 Multiple modes
-
-ID reset, full removal, beta mode, silent mode
-
-📦 Zero Dependencies
-
-Single executable — no runtime dependencies!
-
-🎯 Operation Modes
 
 1. ⚡ Enhanced Beta Bypass (RECOMMENDED)
 
@@ -325,3 +280,4 @@ Made with ❤️ and 🦀 Rust by moti
 Original Python version: warp-no-limit
 
 </div>
+
